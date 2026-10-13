@@ -23,19 +23,19 @@ The dataset contains anonymized PCA-derived features (`V1`–`V28`), plus `Time`
 
 ### Class imbalance
 
-![Transaction class distribution](images/class_distribution.png)
+![Transaction class distribution](class_distribution.png)
 
 Only **0.173%** of transactions are labelled as fraud. Accuracy alone can be misleading because a model can perform well on the majority class while missing fraudulent transactions.
 
 ### Transaction amount distribution
 
-![Transaction amount distribution](images/amount_distribution.png)
+![Transaction amount distribution](amount_distribution.png)
 
 This chart displays amounts up to the 99th percentile to make the main distribution easier to inspect. Higher amounts are omitted from this visualization only, not from the dataset.
 
 ### Feature correlation
 
-![Correlation heatmap](images/correlation_heatmap.png)
+![Correlation heatmap](correlation_heatmap.png)
 
 Pearson correlations for selected features. Correlation indicates linear association, not causation.
 
