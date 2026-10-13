@@ -10,7 +10,7 @@ A machine learning project exploring credit card transaction fraud through data 
 - **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
 - **Main challenge:** Severe class imbalance
 
-The dataset contains anonymized PCA-derived features (`V1`–`V28`), plus `Time`, `Amount`, and `Class`. The original meanings of the anonymized features are not available.
+The dataset contains anonymized PCA-derived features (`V1`–`V28`), plus `Time`, `Amount`, and `Class`. 
 
 ## Objectives
 
